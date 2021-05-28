@@ -22,7 +22,8 @@
  //tag
 
 
- // .class - document.getElementsByClassName - внутри елемента получить элементы по названии класса
+ // .class - document.getElementsByClassName -
+// внутри елемента получить элементы по названии класса
 //          вкладка
 //          (.) связка
 
@@ -43,12 +44,20 @@
 // Без команды ничегоне выводиться
 
 
+// let ttl = document.getElementsByClassName("ttl");
+
+
+// console.log(ttl[1].innerText);
+// console.log(ttl[3].innerText);
+// console.log(ttl[5].innerText);
+// console.log(ttl[7].innerText);
+
+// let img = document.getElementsByClassName("img");
+
+
+// console.log(img[1].innerText);
+
 let ttl = document.getElementsByClassName("ttl");
 
 
 console.log(ttl[1].innerText);
-
-let img = document.getElementsByClassName("img");
-
-
-console.log(img[1].innerText);
